@@ -1,16 +1,23 @@
 # aula_mock
+Repositório para a aula prática de Testes Mock
+### Documentação sobre testes mock  
+https://docs.flutter.dev/cookbook/testing/unit/mocking
+### Documentação para utilizar uma REST API
+https://docs.flutter.dev/cookbook/networking/fetch-data
+### 1-Carregar as dependências
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub get
+```
+### 2-Gerar mocks
+```
+flutter pub run build_runner build
+```
+### 3-Rodar os testes
+```
+flutter test test/fetch_album_test.dart
+```
+### 3-Rodar o app
+```
+flutter run
+```
