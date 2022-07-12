@@ -15,7 +15,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   late Future<Album> futureAlbum;
-  late int id = 0;
+  late int id = 1;
   TextStyle titleStyle = GoogleFonts.openSans(
       fontSize: 35, color: Colors.white, fontWeight: FontWeight.w600);
 
