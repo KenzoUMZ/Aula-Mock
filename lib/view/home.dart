@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
               Container(
                   padding: const EdgeInsets.only(top: 150, bottom: 20),
                   child: Text(
-                    'Album',
+                    'Album\nSearch',
                     style: titleStyle,
                   )),
               FutureBuilder<Album>(
